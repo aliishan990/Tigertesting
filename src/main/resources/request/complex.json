@@ -1,0 +1,80 @@
+
+{
+  "company": {
+    "name": "ABC Corporation",
+    "employees": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 30,
+        "department": "Engineering",
+        "skills": ["Java", "Python", "SQL"],
+        "address": {
+          "street": "123 Main St",
+          "city": "Anytown",
+          "state": "CA",
+          "zipcode": "12345"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 28,
+        "department": "Marketing",
+        "skills": ["Marketing Strategy", "Social Media"],
+        "address": {
+          "street": "456 Elm St",
+          "city": "Sometown",
+          "state": "NY",
+          "zipcode": "54321"
+        }
+      }
+    ],
+    "projects": [
+      {
+        "name": "Project X",
+        "startDate": "2023-01-01",
+        "endDate": "2023-06-30",
+        "manager": "John Doe",
+        "team": ["John Doe", "Jane Smith", "Alice Brown"],
+        "status": "In Progress",
+        "tasks": [
+          {
+            "id": 101,
+            "name": "Design",
+            "assignedTo": "John Doe",
+            "priority": "High"
+          },
+          {
+            "id": 102,
+            "name": "Development",
+            "assignedTo": "Jane Smith",
+            "priority": "Medium"
+          }
+        ]
+      },
+      {
+        "name": "Project Y",
+        "startDate": "2023-04-01",
+        "endDate": "2023-09-30",
+        "manager": "Alice Brown",
+        "team": ["Alice Brown", "Bob Johnson"],
+        "status": "Planning",
+        "tasks": [
+          {
+            "id": 201,
+            "name": "Requirement Analysis",
+            "assignedTo": "Alice Brown",
+            "priority": "High"
+          },
+          {
+            "id": 202,
+            "name": "Prototyping",
+            "assignedTo": "Bob Johnson",
+            "priority": "Medium"
+          }
+        ]
+      }
+    ]
+  }
+}

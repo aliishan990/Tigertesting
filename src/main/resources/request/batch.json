@@ -1,0 +1,137 @@
+{
+    "internal": {
+        "poi": {
+            "altVfiPoiId": "1004631982",
+            "name": "string",
+            "estateManagementId": "Ali",
+            "description": "string",
+            "type": "STANDALONE",
+            "verificationCapabilities": [
+                "CARDHOLDER_AUTH_DATA"
+            ],
+            "pinLengthCapability": 0,
+            "approvalCodeLength": 0,
+            "captureCardCapable": true,
+            "partialAuthIndicator": false,
+            "catLevel": "CAT3",
+            "contactlessSingleTapSupport": "SUPPORTED",
+            "cutoverTime": "16:05",
+            "currentSettlementDate": "2023-05-20",
+            "currentBatchNumber": "20230520",
+            "poiUid": "f7caff7a-d33b-4c88-9310-e24d4b48cf8d",
+            "entityUid": "a6b45428-0296-4394-8ddd-0b50b5b20aa9",
+            "createdDate": "2021-02-01T15:23:15Z",
+            "modifiedDate": "2021-02-01T15:23:15Z",
+            "version": 0,
+            "status": "ACTIVE",
+            "objectType": "POI"
+        },
+        "entity": {
+            "altVfiEntityId": "1003933752",
+            "name": "Merchant Name",
+            "legalName": "Trading Company Ltd",
+            "description": "Trading Company Store 1310",
+            "email": "user@example.com",
+            "locale": {
+                "countryCode": "AUS",
+                "language": "en-US",
+                "timezoneId": "CET"
+            },
+            "industry": "AIRLINE",
+            "mcc": "5411",
+            "entityType": "UNDEFINED",
+            "url": "http://example.com",
+            "legalEntity": "LIMITED_PARTNERSHIP",
+            "taxRegistrationNumber": "7001236954",
+            "businessIdentifiers": [
+                {
+                    "identifierType": "string",
+                    "value": "string"
+                }
+            ],
+            "tokenEntityId": "string",
+            "parentEntityUid": "6e5251df-8879-4129-a3dc-dc2ca03833fa",
+            "labels": [
+                "string"
+            ],
+            "entityUid": "a6b45428-0296-4394-8ddd-0b50b5b20aa9",
+            "createdDate": "2021-02-01T15:22:32Z",
+            "modifiedDate": "2021-02-01T15:22:32Z",
+            "version": 0,
+            "status": "ACTIVE",
+            "objectType": "Entity"
+        },
+        "paymentContract": {
+            "name": "Acquirer Bank 1",
+            "mcc": "5411",
+            "startDate": "2019-08-24",
+            "endDate": "2019-08-24",
+            "merchantId": "765231",
+            "tidList": [
+                "1004631982",
+                "1004631983",
+                "1004631984"
+            ],
+            "currency": [
+                "AED"
+            ],
+            "paymentType": [
+                "AFTERPAY"
+            ],
+            "processor": {
+                "type": "OTHER",
+                "acquirer": "INTERCARD",
+                "config": {
+                    "applicationStatus": "ACTIVATED",
+                    "architectureType": "DISTRIBUTED_CONCENTRATED"
+                },
+                "parameters": {
+                    "parameter3": "Merchant Name",
+                    "parameter2": "10123123",
+                    "parameter1": "true"
+                },
+                "accountDetails": {
+                    "acquiringInstitutionCode": "183719678",
+                    "forwardingInstitutionCode": "842923789"
+                }
+            },
+            "salesChannel": "ALL",
+            "nextParameterSync": "2019-08-24T14:15:22Z",
+            "contractUid": "5a88dffb-8b2d-4221-b693-a7d5fcb4f7a4",
+            "entityUid": "a6b45428-0296-4394-8ddd-0b50b5b20aa9",
+            "settlement": {
+                "defaultTime": "0000-01-01T00:00:00Z",
+                "manual": false,
+                "settlementType": "ONLINE",
+                "nextSyncTime": "0000-01-01T00:00:00Z"
+            },
+            "fees": [],
+            "createdDate": "2021-02-01T15:24:39Z",
+            "modifiedDate": "2021-02-01T15:24:39Z",
+            "version": 0,
+            "status": "ACTIVE",
+            "objectType": "PaymentContract"
+        },
+        "processor": {
+            "type": "FISERV_AU",
+            "processorCategory": "ACQUIRER",
+            "routingHeader": "GICC or ELAVONUK",
+            "currentSettlementDate": "2023-06-07",
+            "cutoverTime": "16:05",
+            "cutoverTimeZone": "string",
+            "forwardingInstitution": "string",
+            "poiCutoverStrategy": "ONE_BATCH_PER_TRADING_DATE",
+            "acquiringInstitution": "string"
+        },
+        "additionalData": {
+            "PDSP_PUBLISHED": "true"
+        },
+        "transactionUUID": "99efce55-c2ac-4816-bd32-b23338e25c11"
+    },
+    "settlementData": {
+        "poiId": "{{poiid}}",
+        "merchantId": "0211456",
+        "initiatorTraceId": "000010",
+        "createdDateTime": "2023-06-07T10:44:20Z"
+    }
+}
